@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.commons.csv.CSVPrinterTest" time="79.912" tests="46" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\jdk1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.66-b18"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\crossover\trial\support\commons-csv"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\crossover\trial\support\commons-csv"/>
+    <property name="java.runtime.version" value="1.8.0_66-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\jdk1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Director\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.3.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Server 5.6\bin;D:\jdk1.8\bin;D:\jboss-as-7\bin;D:\apache-ant-1.8.2\bin;D:\jaddecompiler\jad.exe;D:\putty;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Android\sdk\tools;C:\Android\sdk\platform-tools;D:\GRFING~1\INSTAL~1\bin;D:\apache-maven-3.3.3\bin;D:\BlackBerry JDE 6.0.0\bin;C:\Python27;C:\Python27\Scripts;C:\Ruby22-x64\bin;C:\rails-install;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\Git\cmd;C:\Program Files (x86)\PostgreSQL\8.4\bin;C:\Program Files\R\R-3.2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\cURL\bin;C:\ffmpeg-64\bin;C:\unzip.exe;D:\pmd-bin-5.4.0\bin;C:\Program Files\7-Zip;D:\nc111nt;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Director\AppData\Roaming\npm;C:\Users\Director\AppData\Local\Google-Cloud SDK\google-cloud-sdk\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Director"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Director"/>
+    <property name="java.class.path" value="D:\apache-maven-3.3.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\jdk1.8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="D:\jdk1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\jdk1.8\jre\lib\resources.jar;D:\jdk1.8\jre\lib\rt.jar;D:\jdk1.8\jre\lib\sunrsasign.jar;D:\jdk1.8\jre\lib\jsse.jar;D:\jdk1.8\jre\lib\jce.jar;D:\jdk1.8\jre\lib\charsets.jar;D:\jdk1.8\jre\lib\jfr.jar;D:\jdk1.8\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.3.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testHeaderCommentTdf" classname="org.apache.commons.csv.CSVPrinterTest" time="6.024"/>
+  <testcase name="testDelimeterQuoteNONE" classname="org.apache.commons.csv.CSVPrinterTest" time="4.046"/>
+  <testcase name="testHeaderNotSet" classname="org.apache.commons.csv.CSVPrinterTest" time="2.001"/>
+  <testcase name="testExcelPrintAllArrayOfLists" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrint" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testQuoteNonNumeric" classname="org.apache.commons.csv.CSVPrinterTest" time="2.044"/>
+  <testcase name="testJdbcPrinterWithResultSetMetaData" classname="org.apache.commons.csv.CSVPrinterTest" time="3.085"/>
+  <testcase name="testEOLEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="4"/>
+  <testcase name="testPrinter1" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter2" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter3" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter4" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter5" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter6" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter7" classname="org.apache.commons.csv.CSVPrinterTest" time="0.008"/>
+  <testcase name="testDelimiterPlain" classname="org.apache.commons.csv.CSVPrinterTest" time="2"/>
+  <testcase name="testSingleQuoteQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="2.002"/>
+  <testcase name="testQuoteAll" classname="org.apache.commons.csv.CSVPrinterTest" time="2.021"/>
+  <testcase name="testEOLQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="2.04"/>
+  <testcase name="testEOLPlain" classname="org.apache.commons.csv.CSVPrinterTest" time="2.091"/>
+  <testcase name="testExcelPrintAllIterableOfLists" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testDelimeterQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="2.093"/>
+  <testcase name="testSkipHeaderRecordFalse" classname="org.apache.commons.csv.CSVPrinterTest" time="6.086"/>
+  <testcase name="testPlainPlain" classname="org.apache.commons.csv.CSVPrinterTest" time="2.049"/>
+  <testcase name="testSingleLineComment" classname="org.apache.commons.csv.CSVPrinterTest" time="2.019"/>
+  <testcase name="testExcelPrintAllIterableOfArrays" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testNewCsvPrinterAppendableNullFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
+  <testcase name="testInvalidFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testMultiLineComment" classname="org.apache.commons.csv.CSVPrinterTest" time="2.014"/>
+  <testcase name="testJdbcPrinterWithResultSet" classname="org.apache.commons.csv.CSVPrinterTest" time="2.009"/>
+  <testcase name="testPlainQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="2.032"/>
+  <testcase name="testExcelPrintAllArrayOfArrays" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testJdbcPrinter" classname="org.apache.commons.csv.CSVPrinterTest" time="0.004"/>
+  <testcase name="testSkipHeaderRecordTrue" classname="org.apache.commons.csv.CSVPrinterTest" time="6.019"/>
+  <testcase name="testDelimiterEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="4.03"/>
+  <testcase name="testHeader" classname="org.apache.commons.csv.CSVPrinterTest" time="4.046"/>
+  <testcase name="testParseCustomNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="2.006"/>
+  <testcase name="testPrintCustomNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="2.02"/>
+  <testcase name="testPrintNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testRandom" classname="org.apache.commons.csv.CSVPrinterTest" time="2.041"/>
+  <testcase name="testHeaderCommentExcel" classname="org.apache.commons.csv.CSVPrinterTest" time="6.068"/>
+  <testcase name="testExcelPrinter1" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testExcelPrinter2" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testNewCSVPrinterNullAppendableFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPlainEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="4.013"/>
+  <testcase name="testDisabledComment" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+</testsuite>

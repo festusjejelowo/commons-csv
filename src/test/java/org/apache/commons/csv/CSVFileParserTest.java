@@ -89,6 +89,7 @@ public class CSVFileParserTest {
 
     @Test
     public void testCSVFile() throws Exception {
+
         String line = readTestData();
         assertNotNull("file must contain config line", line);
         final String[] split = line.split(" ");
@@ -129,10 +130,12 @@ public class CSVFileParserTest {
             assertEquals(testName, readTestData(), count + ":" + parsed);
         }
         parser.close();
+
     }
 
     @Test
     public void testCSVUrl() throws Exception {
+
         String line = readTestData();
         assertNotNull("file must contain config line", line);
         final String[] split = line.split(" ");
